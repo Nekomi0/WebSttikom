@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tailsimple</title>
+  </head>
+  <body>
+    <!-- header-->
+    <header class="bg-gray-900 sticky top-0">
+      <nav class="text-white w-11/12 md:container mx-auto py-4 flex justify-between items-center">
+        <a href="" class="text-3xl font-bold">STTIKOM INSAN UNGUL</a>
+        <ul class="menu hidden md:flex md:bg-gray-900 md:relative md:top-0 md:divide-y-0 md:w-auto">
+          <li class="px-7 py-1 hover:text-gray-500"><a href="#home">Home</a></li>
+          <li class="px-7 py-1 hover:text-gray-500"><a href="#UKMSTTIKOM">UKM STTIKOM</a></li>
+          <li class="px-7 py-1 hover:text-gray-500"><a href="#Foto">Program Studi</a></li>
+          <li class="px-7 py-1 hover:text-gray-500"><a href="#about">Tentang Kampus</a></li>
+          <li class="px-7 py-1 hover:text-gray-500"><a href="#location">Lokasi</a></li>
+          <li class="px-7 py-1 hover:text-gray-500 md:hover:text-white"><a href="" class="md:border-2 md:border-red-500 md:py-2 md:px-5 md:rounded-xl md:hover:bg-red-500 text-white">Getting Started</a></li>
+        </ul>
+        <button class="hamburger-menu text-2xl md:hidden">
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-xmark hidden"></i>
+        </button>
+      </nav>
+    </header>
+
+    <!-- hero -->
+    <section class="bg-gray-900">
+      <div class="container mx-auto text-center text-white h-screen flex items-center">
+        <div class="mx-auto w-3/4 md:w-2/4">
+          <h3 class="text-5xl font-bold text-center mb-5">Bergabunglah dengan kami untuk masa depan mu</h3>
+          <p class="text-gray-500 mb-5">Mari Menjadi Satu keluarga dalam STTIKOM</p>
+          <a href="#home" class="bg-red-500 text-white py-2 px-5 rounded-xl hover:bg-red-800">See All Portofolio</a>
+        </div>
+      </div>
+    </section>
+    
+ <!-- Foto Section -->
+ <section id="foto" class="py-20 bg-white">
+  <h3 class="text-5xl font-bold text-center mb-5">Program Studi</h3>
+  <p class="text-gray-500 mb-5 text-center">Galeri tentang Program Studi</p>
+  <div class="grid grid-cols-2 md:grid-cols-4 w-11/12 md:container mx-auto gap-6">
+    <!-- Foto 1 -->
+    <a href="#UKMSTTIKOM" class="shadow-xl block">
+      <img src="/Jurusan-Teknik-Informatika_626x626.jpg" alt="Seblak" class="w-full h-48 object-cover rounded-lg">
+      <h4 class="text-center font-bold py-3">Teknik Informatika</h4>
+    </a>
+    <!-- Foto 2 -->
+    <a href="#UKMSTTIKOM" class="shadow-xl block">
+      <img src="/MN.jpg" alt="Nasi Kuning" class="w-full h-48 object-cover rounded-lg">
+      <h4 class="text-center font-bold py-3">Manejemen Information</h4>
+    </a>
+    <!-- Foto 3 -->
+    <a href="#UKMSTTIKOM" class="shadow-xl block">
+      <img src="/jenis-akuntansi.jpg" alt="Lontong Sayur" class="w-full h-48 object-cover rounded-lg">
+      <h4 class="text-center font-bold py-3">jenis Akuntansi</h4>
+    </a>
+    <!-- Foto 4 -->
+    <a href="#UKMSTTIKOM" class="shadow-xl block">
+      <img src="/Apa-itu-Sistem-informasi.png" alt="Gado-Gado" class="w-full h-48 object-cover rounded-lg">
+      <h4 class="text-center font-bold py-3">Sistem informasi</h4>
+    </a>
+  </div>
+</section>
+
+    <!-- services -->
+    <section id="UKMSTTIKOM" class="bg-gray-200 py-20">
+      <div class="w-11/12 md:container mx-auto">
+        <h3 class="text-5xl font-bold text-center mb-5">UKM STTIKOM</h3>
+        <p class="text-gray-500 text-center mb-5">Mari Kita mengenal beberapa organisasi dalam STTIKOM</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <!-- service 1-->
+          <div class="flex space-x-5 py-8 px-8 bg-white rounded-xl items-start">
+            <img src="/BEM.jpg" />
+            <div>
+              <h4 class="text-2xl font-bold mb-5">Badan Esekutif Mahasiswa</h4>
+              <p class="text-gray-500 mb-5"> organisasi mahasiswa intra kampus yang berfungsi sebagai lembaga eksekutif di tingkat perguruan tinggi</p>
+              <a href="" class="hover:text-gray-500">read more</a>
+            </div>
+          </div>
+
+          <!-- service 2-->
+          <div class="flex space-x-5 py-8 px-8 bg-white rounded-xl items-start">
+            <img src="/HMK.jpg" />
+            <div>
+              <h4 class="text-2xl font-bold mb-5">Himpunan Mahasiswa Komputer&Akuntansi</h4>
+              <p class="text-gray-500 mb-5">organisasi kemahasiswaan yang menaungi mahasiswa jurusan Accounting Information Systems, Information Systems Audit, dan Information Systems Accounting and Auditing.</p>
+              <a href="" class="hover:text-gray-500">read more</a>
+            </div>
+          </div>
+
+          <!-- service 3-->
+          <div class="flex space-x-5 py-8 px-8 bg-white rounded-xl items-start">
+            <img src="/WhatsApp Image 2024-12-20 at 10.11.56_8f51c9ec.jpg" />
+            <div>
+              <h4 class="text-2xl font-bold mb-5">Ikatan olahraga insan ungul </h4>
+              <p class="text-gray-500 mb-5">Organisasi mahasiswa yang berfokus pada kebugaran dan Olahraga</p>
+              <a href="" class="hover:text-gray-500">read more</a>
+            </div>
+          </div>
+
+          <!-- service 4-->
+          <div class="flex space-x-5 py-8 px-8 bg-white rounded-xl items-start">
+            <img src="/LDK.jpg" />
+            <div>
+              <h4 class="text-2xl font-bold mb-5">Lembaga Dakwah Kampus</h4>
+              <p class="text-gray-500 mb-5">organisasi mahasiswa yang berfokus pada dakwah Islam di kampus</p>
+              <a href="" class="hover:text-gray-500">read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about -->
+    <section id="about" class="w-11/12 md:container mx-auto py-20">
+      <div class="flex space-x-10 items-start">
+        <img src="/ST.png" class="w-24 md:w-1/3" />
+        <div>
+          <p class="mb-5">Yuk, kenalan dan temukan info yang perlu kamu tahu tentang kampus impianmu</p>
+          <h3 class="text-5xl font-bold mb-5">Tentang STTIKOM</h3>
+          <p class="mb-5">STTIKOM Insan Unggul memiliki komitmen untuk memadukan pengembangan kompetensi mahasiswa dengan materi program studi yang spesifik, agar para lulusan memperoleh posisi yang kuat di dunia kerja. Melalui pendekatan akademik dan professional, lulusan STTIKOM Insan Unggul Cilegon diharapkan mampu berperan aktif sebagai pelaku ekonomi dan teknologi di era global yang semakin terbuka dan kompetitif. Melalui bimbingan karir yang professional, mahasiswa dapat memanfaatkan keberadaan industri dalam penelitian dan pengembangan ilmu serta pengabdian pada masyarakat.</p>
+          <p class="mb-5 pb-5 border-b border-gray-900">Sekolah Tinggi Teknologi Ilmu Komputer (STTIKOM) Insan Unggul berdiri sejak tahun 2003 berdasarkan keputusan Menteri Pendidikan Nasional Republik Indonesia No. 24/D/O/2003. Hal ini merupakan perwujudan kepedulian yayasan insan unggul terhadap pendidikan masyarakat, khususnya di wilayah Cilegon, Banten dan Sekitarny</p>
+          <ul class="md:flex md:space-x-5">
+            <li>
+              <a href=""><i class="fa-brands fa-tiktok"></i> Tiktok</a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-instagram"></i> Instagram</a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-twitter"></i> Twitter</a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-youtube"></i> YouTube</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="location" class="py-20 bg-gray-200">
+      <div class="w-11/12 md:container mx-auto">
+        <h3 class="text-5xl font-bold text-center mb-5">Lokasi Kami</h3>
+        <p class="text-gray-500 text-center mb-5">Temukan kami di lokasi berikut:</p>
+        <div class="flex justify-center">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31735.90120605474!2d106.04713491562499!3d-6.0172545999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e418d2dd75f4907%3A0xaebfcf10bb48d59b!2sJl.%20Bojonegara%20No.45%2C%20Panggung%20Rawi%2C%20Kec.%20Jombang%2C%20Kota%20Cilegon%2C%20Banten%2042412!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid"
+            width="100%"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-5 text-center font-bold">&copy; STTIKOM INSAN UNGUL</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
